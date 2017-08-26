@@ -1,0 +1,273 @@
+        #topbar{
+            background: rgba(0,0,0,0.4);
+            width: 100%;
+            height: 40px;
+            margin: 0 auto;
+            position: absolute;
+            z-index: 2;
+            float: left;
+            border-bottom: 1px rgba(255,255,255, 0.4) solid;
+        }
+            
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Work Sans", sans-serif;
+            text-decoration: none;
+            font-size: 14px;
+        }
+            
+        #home-logo{
+            float:left;
+            margin-left: 100px;
+            padding: 5px 14px 5px 0;
+            opacity: 0.5;
+            height: 31px;
+        }
+            
+        .topbar-section a{
+            text-decoration: none;
+            float:left;
+            border-left: 1px rgba(255,255,255, 0.4) solid;
+            height: 12px;
+            font-weight: bold;
+            font-size: 14px;
+            padding: 14px 14px;
+            color: rgba(255, 255, 255, 0.714);
+        }
+            
+        .topbar-section :hover{
+            text-decoration: underline;
+        }
+        
+        .topbar-social{
+            height: 41px;
+            margin-right: 6%;
+            float: right;
+            padding: 5px 0 5px 0;
+        }
+            
+        .header-background{
+            height: 360px;
+            position: absolute;
+            z-index: 0;
+            box-shadow: rgba(88, 96, 104, 0.11) 0px 7px 14px 0px;
+        }
+            
+        .header-logo{
+            text-align: center;
+            position: relative;
+            padding-top: 10px;
+            padding-bottom: 0px;
+            z-index: 1;
+        }
+            
+        .clear{
+            clear:both;
+        }
+            
+        .container-blocks{
+            height: 1260px;
+        }
+            
+        .block--welcome{
+            height: 380px;
+            width: 1267.2px;
+            z-index: 2;
+            top: -20px;
+            margin-left: 6%;
+            position: relative;
+            float: none;
+            margin-bottom: 20px;
+            box-shadow: rgba(88, 96, 104, 0.5) 0px 7px 14px 0px;
+            background-color: white;
+        }
+
+        .block-welcome-image{
+            width: 400px;
+            height: 380px;
+            float: left;
+            padding-right: 43.2px;
+            border-right: 1px rgba(0,0,0, 0.1) solid;
+        }
+        
+        .block-welcome-textwrap{
+            margin-left: 20px;
+            width: 760px;
+            height: inherit;
+            float: left;
+            letter-spacing: 0.2px;
+            font-weight: 300;
+            font-family: "Work Sans", sans-serif;
+        }
+
+        .block-welcome-button{
+            float: left;
+            margin-top: 20px;
+            padding: 15px 50px 15px 20px;
+            background-image: linear-gradient(-216deg, rgb(102, 142, 57) 15%, rgb(150, 181, 102) 15%, rgb(124, 124, 124) 15%,rgb(195, 195, 195) 15% rgb(188, 226, 127) 15%, rgb(246, 255, 151) 15%);
+            color: white;
+            text-decoration-line: none;
+            text-decoration-style: solid;
+            line-height: 22px;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            font-family: "Work Sans", sans-serif;
+            width: 100px;
+            height: 22px;
+        }
+            
+        .block--ticketsales a{
+            height: 380px;
+            width: 393.6px;
+            float:left;
+            margin-left: 6%;
+            box-shadow: rgba(88, 96, 104, 0.5) 0px 7px 14px 0px;
+            background-image: url(/Images/tickets.jpg);
+            background-size: 393.6px 380px ;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .block--dates{
+            height: 380px;
+            width: 393.6px;
+            float:left;
+            margin-left: 3%;
+            margin-right: 3%;
+            box-shadow: rgba(88, 96, 104, 0.5) 0px 7px 14px 0px;
+            background-image: url(/Images/date%20box-01.png);
+            background-size: 393.6px 380px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+            
+        .block--artistlineup{
+            height: 380px;
+            width: 393.6px;
+            float: right;
+            margin-right: 6%;
+            box-shadow: rgba(88, 96, 104, 0.5) 0px 7px 14px 0px;
+            background-image: url(/Images/djdecks.jpg);
+            background-size: 393.6px 380px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+            
+        .block--FAQ{
+            height: 380px;
+            width: 1267.2px;
+            float: left;
+            margin-top: 40px;
+            margin-left: 6%;
+            margin-bottom: 40px;
+            box-shadow: rgba(88, 96, 104, 0.5) 0px 7px 14px 0px;
+            background-image: url(Images/faq.png);
+            background-size: 1267.2px 380px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .block-content-bottom{
+            
+        }
+            
+        .container-footer{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width: 100%;
+            background-color: #F7F7F7;
+        }
+        
+        .navigation-container{
+            margin-left: 6%;
+            margin-top: 20px;
+            border-top: 1px rgba(0,0,0, 0.1) solid;
+            width: 1267.2px;
+            height: 20px;
+            padding: 30px 0 30px 0;
+            position: relative;
+            text-align: center;
+        }
+
+        .sitemap{
+            width: 1267.2px;
+            height: 40px;
+            padding-left: 25%;
+        }
+        
+        .sitemap-item-border a{
+            padding-left: 20px;
+            padding-right: 20px;
+            border-right: 1px rgba(0,0,0, 0.3) solid;
+            float:left;
+            text-decoration: none;
+            color: rgb(128, 128, 128);
+        }
+
+        .sitemap-item a{
+            padding-left: 20px;
+            padding-right: 20px;
+            float:left;
+            text-decoration: none;
+            color: rgb(128, 128, 128);
+        }
+            
+        .social-container{
+            margin-left: 6%;
+            width: 1267.2px;
+            height: 52px;
+            float: left;
+            z-index: 0;
+        }
+
+        .newsletter-container{
+            width: 1267.2px;
+            height: 52px;
+            float: right;
+            position: absolute;
+        }
+            
+        .social-links{
+            width: inherit;
+            height: inherit;
+            text-align: center;
+            float: left;
+            z-index: 1;
+        }
+            
+        .newsletter
+        {
+            float: right;
+            border: 1px solid #E0E0EA;
+            background: #fff;
+            color: rgb(83, 83, 92);
+            padding: 10px 0 10px 0;
+            width: 330px;
+            height: 30px;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 4px 0px;
+            z-index: 0;
+        }
+            
+        .email{
+            font-size: 14px;
+            border: 0;
+            padding-bottom: 7px;
+            padding-top: 7px;
+            padding-left: 3px;
+            padding-right: 3px;
+            width: 202px;
+        }
+            
+        .submit{
+            border: none;
+            float: right;
+            border-left: 1px solid #DBDBDB;
+            font-size: 14px;
+            background-color: transparent;
+            font-weight: 600;
+            width: 122px;
+            padding: 8px 15px;
+            letter-spacing: 1.5px;
+            font-family: "Work Sans", sans-serif;
+        }

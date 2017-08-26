@@ -1,0 +1,23 @@
+
+            
+        .poster{
+            margin-left: 6%;
+            float: center;
+            position: relative;
+            top: -20px;
+            z-index: 2;
+            margin-bottom: -20px;
+            width: 1267.2px;
+            height: 1996px;
+        }
+
+
+
+
+
+
+<div class="container-poster">
+        <div class="poster">
+                <img src="Images/coa_2017_1800x2400_v42.jpg" width="1267.2" height="1996">
+            </div>
+        </div>
