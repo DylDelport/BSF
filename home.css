@@ -105,7 +105,8 @@
             float: left;
             margin-top: 20px;
             padding: 15px 50px 15px 20px;
-            background-image: linear-gradient(-216deg, rgb(102, 142, 57) 15%, rgb(150, 181, 102) 15%, rgb(124, 124, 124) 15%,rgb(195, 195, 195) 15% rgb(188, 226, 127) 15%, rgb(246, 255, 151) 15%);
+            /*background: linear-gradient(-216deg, rgb(102, 142, 57) 15%, rgb(150, 181, 102) 15%, rgb(124, 124, 124) 15%,rgb(195, 195, 195) 15%, rgb(188, 226, 127) 15%, rgb(246, 255, 151) 15%);*/
+            background: linear-gradient(-216deg, rgb(255, 255, 205))
             color: white;
             text-decoration-line: none;
             text-decoration-style: solid;
